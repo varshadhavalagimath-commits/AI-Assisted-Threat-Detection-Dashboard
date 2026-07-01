@@ -1,3 +1,13 @@
+Write a Python program that implements a simple number guessing game. 
+The program should:
+- Randomly select a secret number between 1 and 100.
+- Allow the user to repeatedly guess the number until they get it right.
+- Provide feedback after each guess: "Too low" if the guess is smaller, "Too high" if the guess is larger.
+- Count the number of attempts and display it when the user guesses correctly.
+- Handle invalid inputs gracefully by showing an error message if the user enters something other than a whole number.
+- Run inside a loop until the correct number is guessed.
+
+
 import random
 
 def guess_the_number():
