@@ -1,3 +1,13 @@
+prompt:
+Write a Python program that implements a simple  To-Do List application. 
+The program should:
+- Display a menu with options to view tasks, add tasks, mark tasks as completed, delete tasks, and exit.
+- Store tasks in a list, where each task has a title and a completion status.
+- Allow users to interact with the menu in a loop until they choose to exit.
+- Show tasks with a checkmark if completed and a cross if not.
+- Handle invalid inputs gracefully.
+
+
 def show_menu():
     print("\n--- To-Do List Menu ---")
     print("1. View tasks")
